@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <afClassName>creational.abstractFactory.factory.impl.WindowsFactory</afClassName>
+    <bdClassName>creational.builder.builder.impl.SubMealBuilderB</bdClassName>
+    <fmClassName>creational.factoryMethod.factory.impl.RectBtnFactory</fmClassName>
+    <adClassName>structural.adapter.sample01.adapter.BirdAdapter</adClassName>
+    <adClassName2>structural.adapter.sample02.adapter.NewCipherAdapter</adClassName2>
+    <brClassName_Shape>structural.bridge.abstraction.impl.Circle</brClassName_Shape>
+    <brClassName_Color>structural.bridge.implementor.impl.Red</brClassName_Color>
+</root>
