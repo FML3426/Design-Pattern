@@ -7,7 +7,7 @@ import structural.decorator.component.Cipher;
  *
  * @author ML3426
  */
-public class CipherDecorator implements Cipher {
+public abstract class CipherDecorator implements Cipher {
 
 	private Cipher cipher;
 
