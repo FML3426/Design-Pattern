@@ -1,4 +1,4 @@
-package structural.proxy.dynamicProxy1.subject.proxy;
+package structural.proxy.dynamicProxy.subject.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

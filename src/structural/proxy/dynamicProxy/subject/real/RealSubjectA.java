@@ -1,6 +1,6 @@
-package structural.proxy.dynamicProxy1.subject.real;
+package structural.proxy.dynamicProxy.subject.real;
 
-import structural.proxy.dynamicProxy1.subject.AbstractSubject;
+import structural.proxy.dynamicProxy.subject.AbstractSubject;
 
 /**
  * Created by ML3426 on 16/9/17.

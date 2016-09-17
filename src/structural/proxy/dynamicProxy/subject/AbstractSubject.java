@@ -1,4 +1,4 @@
-package structural.proxy.dynamicProxy1.subject;
+package structural.proxy.dynamicProxy.subject;
 
 /**
  * Created by ML3426 on 16/9/17.
