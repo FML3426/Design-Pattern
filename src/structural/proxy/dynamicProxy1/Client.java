@@ -1,12 +1,12 @@
-package structural.proxy.sample01.dynamicProxy;
+package structural.proxy.dynamicProxy1;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
-import structural.proxy.sample01.dynamicProxy.subject.AbstractSubject;
-import structural.proxy.sample01.dynamicProxy.subject.proxy.DynamicProxy;
-import structural.proxy.sample01.dynamicProxy.subject.real.RealSubjectA;
-import structural.proxy.sample01.dynamicProxy.subject.real.RealSubjectB;
+import structural.proxy.dynamicProxy1.subject.AbstractSubject;
+import structural.proxy.dynamicProxy1.subject.proxy.DynamicProxy;
+import structural.proxy.dynamicProxy1.subject.real.RealSubjectA;
+import structural.proxy.dynamicProxy1.subject.real.RealSubjectB;
 
 /**
  * Created by ML3426 on 16/9/17.
