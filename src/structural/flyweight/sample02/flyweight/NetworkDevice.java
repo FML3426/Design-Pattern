@@ -9,7 +9,7 @@ import structural.flyweight.sample02.Port;
  */
 public interface NetworkDevice {
 
-	String getType();
+    String getType();
 
-	void use(Port port);
+    void use(Port port);
 }

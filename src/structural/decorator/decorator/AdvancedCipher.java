@@ -8,20 +8,20 @@ import structural.decorator.component.Cipher;
  * @author ML3426
  */
 public class AdvancedCipher extends CipherDecorator {
-	public AdvancedCipher(Cipher cipher) {
-		super(cipher);
-	}
+    public AdvancedCipher(Cipher cipher) {
+        super(cipher);
+    }
 
-	public String mod(String text) {
-		StringBuilder sb = new StringBuilder("");
-		for (int i = 0; i < text.length(); i++) {
-			sb.append(text.charAt(i) % 6);
-		}
-		return sb.toString();
-	}
+    public String mod(String text) {
+        StringBuilder sb = new StringBuilder("");
+        for (int i = 0; i < text.length(); i++) {
+            sb.append(text.charAt(i) % 6);
+        }
+        return sb.toString();
+    }
 
-	@Override
-	public String encrypt(String plainText) {
-		return mod(super.encrypt(plainText));
-	}
+    @Override
+    public String encrypt(String plainText) {
+        return mod(super.encrypt(plainText));
+    }
 }
