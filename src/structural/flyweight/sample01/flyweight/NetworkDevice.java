@@ -7,7 +7,7 @@ package structural.flyweight.sample01.flyweight;
  */
 public interface NetworkDevice {
 
-	String getType();
+    String getType();
 
-	void use();
+    void use();
 }

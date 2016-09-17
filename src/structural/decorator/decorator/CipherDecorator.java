@@ -9,14 +9,14 @@ import structural.decorator.component.Cipher;
  */
 public abstract class CipherDecorator implements Cipher {
 
-	private Cipher cipher;
+    private Cipher cipher;
 
-	public CipherDecorator(Cipher cipher) {
-		this.cipher = cipher;
-	}
+    public CipherDecorator(Cipher cipher) {
+        this.cipher = cipher;
+    }
 
-	@Override
-	public String encrypt(String plainText) {
-		return cipher.encrypt(plainText);
-	}
+    @Override
+    public String encrypt(String plainText) {
+        return cipher.encrypt(plainText);
+    }
 }

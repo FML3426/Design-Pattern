@@ -5,13 +5,11 @@ package structural.adapter.sample01.adaptee;
  */
 public class Bird {
 
-    public void tweedle()
-    {
+    public void tweedle() {
         System.out.println("Bird can tweedle.");
     }
 
-    public void fly()
-    {
+    public void fly() {
         System.out.println("Bird can fly.");
     }
 }

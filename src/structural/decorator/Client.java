@@ -12,25 +12,25 @@ import structural.decorator.decorator.ComplexCipher;
  */
 public class Client {
 
-	public static void main(String[] args) {
-		String password = "ML3426";
-		String passwordEncrypted;
+    public static void main(String[] args) {
+        String password = "ML3426";
+        String passwordEncrypted;
 
-		Cipher sc, ac, cc;
+        Cipher sc, ac, cc;
 
-		sc = new SimpleCipher();
-		passwordEncrypted = sc.encrypt(password);
-		System.out.println(passwordEncrypted);
-		System.out.println("---------------------");
+        sc = new SimpleCipher();
+        passwordEncrypted = sc.encrypt(password);
+        System.out.println(passwordEncrypted);
+        System.out.println("---------------------");
 
-		cc = new ComplexCipher(sc);
-		passwordEncrypted = cc.encrypt(password);
-		System.out.println(passwordEncrypted);
-		System.out.println("---------------------");
+        cc = new ComplexCipher(sc);
+        passwordEncrypted = cc.encrypt(password);
+        System.out.println(passwordEncrypted);
+        System.out.println("---------------------");
 
-		ac = new AdvancedCipher(cc);
-		passwordEncrypted = ac.encrypt(password);
-		System.out.println(passwordEncrypted);
-		System.out.println("---------------------");
-	}
+        ac = new AdvancedCipher(cc);
+        passwordEncrypted = ac.encrypt(password);
+        System.out.println(passwordEncrypted);
+        System.out.println("---------------------");
+    }
 }

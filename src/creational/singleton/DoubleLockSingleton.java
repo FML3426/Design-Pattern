@@ -9,7 +9,8 @@ public class DoubleLockSingleton {
 
     private DoubleLockSingleton instance;
 
-    private DoubleLockSingleton() {}
+    private DoubleLockSingleton() {
+    }
 
     public DoubleLockSingleton getInstace() {
         if (instance == null) {

@@ -7,5 +7,5 @@ package structural.decorator.component;
  */
 public interface Cipher {
 
-	String encrypt(String plainText);
+    String encrypt(String plainText);
 }
