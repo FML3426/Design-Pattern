@@ -7,5 +7,5 @@
     <adClassName2>structural.adapter.sample02.adapter.NewCipherAdapter</adClassName2>
     <brClassName_Shape>structural.bridge.abstraction.impl.Circle</brClassName_Shape>
     <brClassName_Color>structural.bridge.implementor.impl.Red</brClassName_Color>
-    <pxyClassName>structural.proxy.subject.proxy.PermissionProxy</pxyClassName>
+    <pxyClassName>structural.proxy.sample01.subject.proxy.PermissionProxy</pxyClassName>
 </root>

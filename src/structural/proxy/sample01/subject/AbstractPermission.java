@@ -1,4 +1,4 @@
-package structural.proxy.subject;
+package structural.proxy.sample01.subject;
 
 /**
  * Created by ML3426 on 16/9/17.

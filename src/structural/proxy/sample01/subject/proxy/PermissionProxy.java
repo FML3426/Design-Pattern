@@ -1,7 +1,7 @@
-package structural.proxy.subject.proxy;
+package structural.proxy.sample01.subject.proxy;
 
-import structural.proxy.subject.AbstractPermission;
-import structural.proxy.subject.real.RealPermission;
+import structural.proxy.sample01.subject.AbstractPermission;
+import structural.proxy.sample01.subject.real.RealPermission;
 
 /**
  * Created by ML3426 on 16/9/17.

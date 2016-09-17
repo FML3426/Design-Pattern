@@ -1,6 +1,6 @@
-package structural.proxy;
+package structural.proxy.sample01;
 
-import structural.proxy.subject.AbstractPermission;
+import structural.proxy.sample01.subject.AbstractPermission;
 import util.XMLUtil;
 
 /**
