@@ -4,9 +4,11 @@ import java.util.ArrayList;
 
 /**
  * Created by ML3426 on 16/8/1.
+ *
+ * @author ML3426
  */
 public class Composite extends Component {
-    private ArrayList list = new ArrayList();
+    private ArrayList<Component> list = new ArrayList<>();
 
     public void add(Component c) {
         list.add(c);

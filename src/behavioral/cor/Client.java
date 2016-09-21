@@ -1,11 +1,11 @@
-package structural.cor;
+package behavioral.cor;
 
-import structural.cor.handler.Leader;
-import structural.cor.handler.impl.Director;
-import structural.cor.handler.impl.GeneralManager;
-import structural.cor.handler.impl.Manager;
-import structural.cor.handler.impl.ViceGeneralManager;
-import structural.cor.request.LeaveRequest;
+import behavioral.cor.handler.Leader;
+import behavioral.cor.handler.impl.Director;
+import behavioral.cor.handler.impl.GeneralManager;
+import behavioral.cor.handler.impl.Manager;
+import behavioral.cor.handler.impl.ViceGeneralManager;
+import behavioral.cor.request.LeaveRequest;
 
 /**
  * Created by ML3426 on 16/9/19.

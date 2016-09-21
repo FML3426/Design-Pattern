@@ -7,13 +7,13 @@ package structural.proxy.sample01.subject;
  */
 public interface AbstractPermission {
 
-    public void modifyUserInfo();
+    void modifyUserInfo();
 
-    public void viewNote();
+    void viewNote();
 
-    public void publishNote();
+    void publishNote();
 
-    public void modifyNote();
+    void modifyNote();
 
-    public void setLevel(int level);
+    void setLevel(int level);
 }

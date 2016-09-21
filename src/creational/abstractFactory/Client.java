@@ -5,6 +5,8 @@ import util.XMLUtil;
 
 /**
  * Created by steven.zmj on 2016/7/7.
+ *
+ * @author ML3426
  */
 public class Client {
 

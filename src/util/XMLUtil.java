@@ -10,7 +10,10 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 /**
  * Created by steven.zmj on 2016/7/7.
+ *
+ * @author ML3426
  */
+@SuppressWarnings("unchecked")
 public class XMLUtil {
 
     public static <T> Class<T> readClass(Class<T> clazz, String tagName) {
@@ -32,8 +35,7 @@ public class XMLUtil {
                 }
             }
             //通过类名生成实例对象并将其返回
-            Class c = Class.forName(cName);
-            return c;
+            return (Class) Class.forName(cName);
         } catch (Exception e) {
             e.printStackTrace();
             return null;

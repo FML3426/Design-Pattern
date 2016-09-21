@@ -1,4 +1,4 @@
-package structural.cor.request;
+package behavioral.cor.request;
 
 /**
  * Created by ML3426 on 16/9/19.

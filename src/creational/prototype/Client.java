@@ -4,13 +4,13 @@ import java.util.Hashtable;
 
 /**
  * Created by steven.zmj on 2016/7/12.
+ *
+ * @author ML3426
  */
-
-
 interface MyColor extends Cloneable {
-    public Object clone();
+    Object clone();
 
-    public void display();
+    void display();
 }
 
 class Red implements MyColor {
@@ -19,7 +19,7 @@ class Red implements MyColor {
         try {
             r = (Red) super.clone();
         } catch (CloneNotSupportedException e) {
-
+            e.printStackTrace();
         }
         return r;
     }
@@ -35,7 +35,7 @@ class Blue implements MyColor {
         try {
             b = (Blue) super.clone();
         } catch (CloneNotSupportedException e) {
-
+            e.printStackTrace();
         }
         return b;
     }
@@ -46,7 +46,7 @@ class Blue implements MyColor {
 }
 
 class PrototypeManager {
-    private Hashtable ht = new Hashtable();
+    private Hashtable<String, MyColor> ht = new Hashtable<>();
 
     public PrototypeManager() {
         ht.put("red", new Red());

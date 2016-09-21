@@ -1,7 +1,7 @@
-package structural.cor.handler.impl;
+package behavioral.cor.handler.impl;
 
-import structural.cor.handler.Leader;
-import structural.cor.request.LeaveRequest;
+import behavioral.cor.handler.Leader;
+import behavioral.cor.request.LeaveRequest;
 
 /**
  * Created by ML3426 on 16/9/19.

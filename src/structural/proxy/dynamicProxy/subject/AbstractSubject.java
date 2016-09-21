@@ -7,5 +7,5 @@ package structural.proxy.dynamicProxy.subject;
  */
 public interface AbstractSubject {
 
-    public void request();
+    void request();
 }
